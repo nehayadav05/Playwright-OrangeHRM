@@ -11,7 +11,7 @@ test('Home Page', async ({ page }) => {
     const pageTitle = await page.title();
 
     // Print the page title to the console
-    console.log('Page title is:', pageTitle);
+    console.log('Current Page title is:', pageTitle);
 
     // Check whether the page title exactly matches the text 'STORE'
     await expect(page).toHaveTitle('STORE');
