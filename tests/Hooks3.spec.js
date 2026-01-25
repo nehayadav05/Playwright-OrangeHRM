@@ -23,7 +23,7 @@ test ('Home Page Test', async()=>{
     expect(products).toHaveLength(9)
 })
 
-test ('Add Product to card test', async() =>{
+test ('Add Product to cart test', async() =>{
 //Add product to cart
     await page.locator("//a[normalize-space()='Samsung galaxy s6']").click();
     await page.locator("//a[normalize-space()='Add to cart']").click();
