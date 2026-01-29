@@ -1,0 +1,7 @@
+{
+  type: 'https://tools.ietf.org/html/rfc7231#section-6.5.1',
+  title: 'One or more validation errors occurred.',
+  status: 400,
+  traceId: '00-d149899f55f3534aafa8b9cdf89bc981-5e2eb2264e40e341-00',
+  errors: { id: [ "The value 'undefined' is not valid." ] }
+}

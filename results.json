@@ -1,0 +1,276 @@
+{
+  "config": {
+    "configFile": "D:\\Playwright-OrangeHRM\\playwright.config.js",
+    "rootDir": "D:/Playwright-OrangeHRM/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Playwright-OrangeHRM/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/Playwright-OrangeHRM/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/Playwright-OrangeHRM/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "D:/Playwright-OrangeHRM/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/Playwright-OrangeHRM/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "D:/Playwright-OrangeHRM/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml"
+        }
+      ],
+      [
+        "D:\\Playwright-OrangeHRM\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        {
+          "outputFolder": "my-allure-results"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "APITests.spec.js",
+      "file": "APITests.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Get users",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 376,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[\n  {\n    id: \u001b[33m1\u001b[39m,\n    name: \u001b[32m'Leanne Graham'\u001b[39m,\n    username: \u001b[32m'Bret'\u001b[39m,\n    email: \u001b[32m'Sincere@april.biz'\u001b[39m,\n    address: {\n      street: \u001b[32m'Kulas Light'\u001b[39m,\n      suite: \u001b[32m'Apt. 556'\u001b[39m,\n      city: \u001b[32m'Gwenborough'\u001b[39m,\n      zipcode: \u001b[32m'92998-3874'\u001b[39m,\n      geo: \u001b[36m[Object]\u001b[39m\n    },\n    phone: \u001b[32m'1-770-736-8031 x56442'\u001b[39m,\n    website: \u001b[32m'hildegard.org'\u001b[39m,\n    company: {\n      name: \u001b[32m'Romaguera-Crona'\u001b[39m,\n      catchPhrase: \u001b[32m'Multi-layered client-server neural-net'\u001b[39m,\n      bs: \u001b[32m'harness real-time e-markets'\u001b[39m\n    }\n  },\n  {\n    id: \u001b[33m2\u001b[39m,\n    name: \u001b[32m'Ervin Howell'\u001b[39m,\n    username: \u001b[32m'Antonette'\u001b[39m,\n    email: \u001b[32m'Shanna@melissa.tv'\u001b[39m,\n    address: {\n      street: \u001b[32m'Victor Plains'\u001b[39m,\n      suite: \u001b[32m'Suite 879'\u001b[39m,\n      city: \u001b[32m'Wisokyburgh'\u001b[39m,\n      zipcode: \u001b[32m'90566-7771'\u001b[39m,\n      geo: \u001b[36m[Object]\u001b[39m\n    },\n    phone: \u001b[32m'010-692-6593 x09125'\u001b[39m,\n    website: \u001b[32m'anastasia.net'\u001b[39m,\n    company: {\n      name: \u001b[32m'Deckow-Crist'\u001b[39m,\n      catchPhrase: \u001b[32m'Proactive didactic contingency'\u001b[39m,\n      bs: \u001b[32m'synergize scalable supply-chains'\u001b[39m\n    }\n  },\n  {\n    id: \u001b[33m3\u001b[39m,\n    name: \u001b[32m'Clementine Bauch'\u001b[39m,\n    username: \u001b[32m'Samantha'\u001b[39m,\n    email: \u001b[32m'Nathan@yesenia.net'\u001b[39m,\n    address: {\n      street: \u001b[32m'Douglas Extension'\u001b[39m,\n      suite: \u001b[32m'Suite 847'\u001b[39m,\n      city: \u001b[32m'McKenziehaven'\u001b[39m,\n      zipcode: \u001b[32m'59590-4157'\u001b[39m,\n      geo: \u001b[36m[Object]\u001b[39m\n    },\n    phone: \u001b[32m'1-463-123-4447'\u001b[39m,\n    website: \u001b[32m'ramiro.info'\u001b[39m,\n    company: {\n      name: \u001b[32m'Romaguera-Jacobson'\u001b[39m,\n      catchPhrase: \u001b[32m'Face to face bifurcated interface'\u001b[39m,\n      bs: \u001b[32m'e-enable strategic applications'\u001b[39m\n    }\n  },\n  {\n    id: \u001b[33m4\u001b[39m,\n    name: \u001b[32m'Patricia Lebsack'\u001b[39m,\n    username: \u001b[32m'Karianne'\u001b[39m,\n    email: \u001b[32m'Julianne.OConner@kory.org'\u001b[39m,\n    address: {\n      street: \u001b[32m'Hoeger Mall'\u001b[39m,\n      suite: \u001b[32m'Apt. 692'\u001b[39m,\n      city: \u001b[32m'South Elvis'\u001b[39m,\n      zipcode: \u001b[32m'53919-4257'\u001b[39m,\n      geo: \u001b[36m[Object]\u001b[39m\n    },\n    phone: \u001b[32m'493-170-9623 x156'\u001b[39m,\n    website: \u001b[32m'kale.biz'\u001b[39m,\n    company: {\n      name: \u001b[32m'Robel-Corkery'\u001b[39m,\n      catchPhrase: \u001b[32m'Multi-tiered zero tolerance productivity'\u001b[39m,\n      bs: \u001b[32m'transition cutting-edge web services'\u001b[39m\n    }\n  },\n  {\n    id: \u001b[33m5\u001b[39m,\n    name: \u001b[32m'Chelsey Dietrich'\u001b[39m,\n    username: \u001b[32m'Kamren'\u001b[39m,\n    email: \u001b[32m'Lucio_Hettinger@annie.ca'\u001b[39m,\n    address: {\n      street: \u001b[32m'Skiles Walks'\u001b[39m,\n      suite: \u001b[32m'Suite 351'\u001b[39m,\n      city: \u001b[32m'Roscoeview'\u001b[39m,\n      zipcode: \u001b[32m'33263'\u001b[39m,\n      geo: \u001b[36m[Object]\u001b[39m\n    },\n    phone: \u001b[32m'(254)954-1289'\u001b[39m,\n    website: \u001b[32m'demarco.info'\u001b[39m,\n    company: {\n      name: \u001b[32m'Keebler LLC'\u001b[39m,\n      catchPhrase: \u001b[32m'User-centric fault-tolerant solution'\u001b[39m,\n      bs: \u001b[32m'revolutionize end-to-end systems'\u001b[39m\n    }\n  },\n  {\n    id: \u001b[33m6\u001b[39m,\n    name: \u001b[32m'Mrs. Dennis Schulist'\u001b[39m,\n    username: \u001b[32m'Leopoldo_Corkery'\u001b[39m,\n    email: \u001b[32m'Karley_Dach@jasper.info'\u001b[39m,\n    address: {\n      street: \u001b[32m'Norberto Crossing'\u001b[39m,\n      suite: \u001b[32m'Apt. 950'\u001b[39m,\n      city: \u001b[32m'South Christy'\u001b[39m,\n      zipcode: \u001b[32m'23505-1337'\u001b[39m,\n      geo: \u001b[36m[Object]\u001b[39m\n    },\n    phone: \u001b[32m'1-477-935-8478 x6430'\u001b[39m,\n    website: \u001b[32m'ola.org'\u001b[39m,\n    company: {\n      name: \u001b[32m'Considine-Lockman'\u001b[39m,\n      catchPhrase: \u001b[32m'Synchronised bottom-line interface'\u001b[39m,\n      bs: \u001b[32m'e-enable innovative applications'\u001b[39m\n    }\n  },\n  {\n    id: \u001b[33m7\u001b[39m,\n    name: \u001b[32m'Kurtis Weissnat'\u001b[39m,\n    username: \u001b[32m'Elwyn.Skiles'\u001b[39m,\n    email: \u001b[32m'Telly.Hoeger@billy.biz'\u001b[39m,\n    address: {\n      street: \u001b[32m'Rex Trail'\u001b[39m,\n      suite: \u001b[32m'Suite 280'\u001b[39m,\n      city: \u001b[32m'Howemouth'\u001b[39m,\n      zipcode: \u001b[32m'58804-1099'\u001b[39m,\n      geo: \u001b[36m[Object]\u001b[39m\n    },\n    phone: \u001b[32m'210.067.6132'\u001b[39m,\n    website: \u001b[32m'elvis.io'\u001b[39m,\n    company: {\n      name: \u001b[32m'Johns Group'\u001b[39m,\n      catchPhrase: \u001b[32m'Configurable multimedia task-force'\u001b[39m,\n      bs: \u001b[32m'generate enterprise e-tailers'\u001b[39m\n    }\n  },\n  {\n    id: \u001b[33m8\u001b[39m,\n    name: \u001b[32m'Nicholas Runolfsdottir V'\u001b[39m,\n    username: \u001b[32m'Maxime_Nienow'\u001b[39m,\n    email: \u001b[32m'Sherwood@rosamond.me'\u001b[39m,\n    address: {\n      street: \u001b[32m'Ellsworth Summit'\u001b[39m,\n      suite: \u001b[32m'Suite 729'\u001b[39m,\n      city: \u001b[32m'Aliyaview'\u001b[39m,\n      zipcode: \u001b[32m'45169'\u001b[39m,\n      geo: \u001b[36m[Object]\u001b[39m\n    },\n    phone: \u001b[32m'586.493.6943 x140'\u001b[39m,\n    website: \u001b[32m'jacynthe.com'\u001b[39m,\n    company: {\n      name: \u001b[32m'Abernathy Group'\u001b[39m,\n      catchPhrase: \u001b[32m'Implemented secondary concept'\u001b[39m,\n      bs: \u001b[32m'e-enable extensible e-tailers'\u001b[39m\n    }\n  },\n  {\n    id: \u001b[33m9\u001b[39m,\n    name: \u001b[32m'Glenna Reichert'\u001b[39m,\n    username: \u001b[32m'Delphine'\u001b[39m,\n    email: \u001b[32m'Chaim_McDermott@dana.io'\u001b[39m,\n    address: {\n      street: \u001b[32m'Dayna Park'\u001b[39m,\n      suite: \u001b[32m'Suite 449'\u001b[39m,\n      city: \u001b[32m'Bartholomebury'\u001b[39m,\n      zipcode: \u001b[32m'76495-3109'\u001b[39m,\n      geo: \u001b[36m[Object]\u001b[39m\n    },\n    phone: \u001b[32m'(775)976-6794 x41206'\u001b[39m,\n    website: \u001b[32m'conrad.com'\u001b[39m,\n    company: {\n      name: \u001b[32m'Yost and Sons'\u001b[39m,\n      catchPhrase: \u001b[32m'Switchable contextually-based project'\u001b[39m,\n      bs: \u001b[32m'aggregate real-time technologies'\u001b[39m\n    }\n  },\n  {\n    id: \u001b[33m10\u001b[39m,\n    name: \u001b[32m'Clementina DuBuque'\u001b[39m,\n    username: \u001b[32m'Moriah.Stanton'\u001b[39m,\n    email: \u001b[32m'Rey.Padberg@karina.biz'\u001b[39m,\n    address: {\n      street: \u001b[32m'Kattie Turnpike'\u001b[39m,\n      suite: \u001b[32m'Suite 198'\u001b[39m,\n      city: \u001b[32m'Lebsackbury'\u001b[39m,\n      zipcode: \u001b[32m'31428-2261'\u001b[39m,\n      geo: \u001b[36m[Object]\u001b[39m\n    },\n    phone: \u001b[32m'024-648-3804'\u001b[39m,\n    website: \u001b[32m'ambrose.net'\u001b[39m,\n    company: {\n      name: \u001b[32m'Hoeger LLC'\u001b[39m,\n      catchPhrase: \u001b[32m'Centralized empowering task-force'\u001b[39m,\n      bs: \u001b[32m'target end-to-end models'\u001b[39m\n    }\n  }\n]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-29T13:45:16.247Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c6e518dd64a90dc053d2-626a5d454fa0b6071a35",
+          "file": "APITests.spec.js",
+          "line": 9,
+          "column": 1
+        },
+        {
+          "title": "Create user",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 332,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  name: \u001b[32m'Neha Yadav'\u001b[39m,\n  email: \u001b[32m'neha@test.com'\u001b[39m,\n  username: \u001b[32m'nehayadav'\u001b[39m,\n  id: \u001b[33m11\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-29T13:45:16.676Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c6e518dd64a90dc053d2-bb492044e9fddbfaee10",
+          "file": "APITests.spec.js",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "Update user",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 873,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-29T13:45:17.065Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c6e518dd64a90dc053d2-3324d3c8f344f989d417",
+          "file": "APITests.spec.js",
+          "line": 60,
+          "column": 1
+        },
+        {
+          "title": "Delete user",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 431,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-29T13:45:18.008Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c6e518dd64a90dc053d2-da09cda14bb0fac92802",
+          "file": "APITests.spec.js",
+          "line": 89,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-29T13:45:13.351Z",
+    "duration": 5307.706,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

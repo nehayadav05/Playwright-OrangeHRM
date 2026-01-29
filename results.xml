@@ -1,0 +1,230 @@
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="5.3077060000000005">
+<testsuite name="APITests.spec.js" timestamp="2026-01-29T13:45:13.449Z" hostname="chromium" tests="4" failures="0" skipped="0" time="2.012" errors="0">
+<testcase name="Get users" classname="APITests.spec.js" time="0.376">
+<system-out>
+<![CDATA[[
+  {
+    id: [33m1[39m,
+    name: [32m'Leanne Graham'[39m,
+    username: [32m'Bret'[39m,
+    email: [32m'Sincere@april.biz'[39m,
+    address: {
+      street: [32m'Kulas Light'[39m,
+      suite: [32m'Apt. 556'[39m,
+      city: [32m'Gwenborough'[39m,
+      zipcode: [32m'92998-3874'[39m,
+      geo: [36m[Object][39m
+    },
+    phone: [32m'1-770-736-8031 x56442'[39m,
+    website: [32m'hildegard.org'[39m,
+    company: {
+      name: [32m'Romaguera-Crona'[39m,
+      catchPhrase: [32m'Multi-layered client-server neural-net'[39m,
+      bs: [32m'harness real-time e-markets'[39m
+    }
+  },
+  {
+    id: [33m2[39m,
+    name: [32m'Ervin Howell'[39m,
+    username: [32m'Antonette'[39m,
+    email: [32m'Shanna@melissa.tv'[39m,
+    address: {
+      street: [32m'Victor Plains'[39m,
+      suite: [32m'Suite 879'[39m,
+      city: [32m'Wisokyburgh'[39m,
+      zipcode: [32m'90566-7771'[39m,
+      geo: [36m[Object][39m
+    },
+    phone: [32m'010-692-6593 x09125'[39m,
+    website: [32m'anastasia.net'[39m,
+    company: {
+      name: [32m'Deckow-Crist'[39m,
+      catchPhrase: [32m'Proactive didactic contingency'[39m,
+      bs: [32m'synergize scalable supply-chains'[39m
+    }
+  },
+  {
+    id: [33m3[39m,
+    name: [32m'Clementine Bauch'[39m,
+    username: [32m'Samantha'[39m,
+    email: [32m'Nathan@yesenia.net'[39m,
+    address: {
+      street: [32m'Douglas Extension'[39m,
+      suite: [32m'Suite 847'[39m,
+      city: [32m'McKenziehaven'[39m,
+      zipcode: [32m'59590-4157'[39m,
+      geo: [36m[Object][39m
+    },
+    phone: [32m'1-463-123-4447'[39m,
+    website: [32m'ramiro.info'[39m,
+    company: {
+      name: [32m'Romaguera-Jacobson'[39m,
+      catchPhrase: [32m'Face to face bifurcated interface'[39m,
+      bs: [32m'e-enable strategic applications'[39m
+    }
+  },
+  {
+    id: [33m4[39m,
+    name: [32m'Patricia Lebsack'[39m,
+    username: [32m'Karianne'[39m,
+    email: [32m'Julianne.OConner@kory.org'[39m,
+    address: {
+      street: [32m'Hoeger Mall'[39m,
+      suite: [32m'Apt. 692'[39m,
+      city: [32m'South Elvis'[39m,
+      zipcode: [32m'53919-4257'[39m,
+      geo: [36m[Object][39m
+    },
+    phone: [32m'493-170-9623 x156'[39m,
+    website: [32m'kale.biz'[39m,
+    company: {
+      name: [32m'Robel-Corkery'[39m,
+      catchPhrase: [32m'Multi-tiered zero tolerance productivity'[39m,
+      bs: [32m'transition cutting-edge web services'[39m
+    }
+  },
+  {
+    id: [33m5[39m,
+    name: [32m'Chelsey Dietrich'[39m,
+    username: [32m'Kamren'[39m,
+    email: [32m'Lucio_Hettinger@annie.ca'[39m,
+    address: {
+      street: [32m'Skiles Walks'[39m,
+      suite: [32m'Suite 351'[39m,
+      city: [32m'Roscoeview'[39m,
+      zipcode: [32m'33263'[39m,
+      geo: [36m[Object][39m
+    },
+    phone: [32m'(254)954-1289'[39m,
+    website: [32m'demarco.info'[39m,
+    company: {
+      name: [32m'Keebler LLC'[39m,
+      catchPhrase: [32m'User-centric fault-tolerant solution'[39m,
+      bs: [32m'revolutionize end-to-end systems'[39m
+    }
+  },
+  {
+    id: [33m6[39m,
+    name: [32m'Mrs. Dennis Schulist'[39m,
+    username: [32m'Leopoldo_Corkery'[39m,
+    email: [32m'Karley_Dach@jasper.info'[39m,
+    address: {
+      street: [32m'Norberto Crossing'[39m,
+      suite: [32m'Apt. 950'[39m,
+      city: [32m'South Christy'[39m,
+      zipcode: [32m'23505-1337'[39m,
+      geo: [36m[Object][39m
+    },
+    phone: [32m'1-477-935-8478 x6430'[39m,
+    website: [32m'ola.org'[39m,
+    company: {
+      name: [32m'Considine-Lockman'[39m,
+      catchPhrase: [32m'Synchronised bottom-line interface'[39m,
+      bs: [32m'e-enable innovative applications'[39m
+    }
+  },
+  {
+    id: [33m7[39m,
+    name: [32m'Kurtis Weissnat'[39m,
+    username: [32m'Elwyn.Skiles'[39m,
+    email: [32m'Telly.Hoeger@billy.biz'[39m,
+    address: {
+      street: [32m'Rex Trail'[39m,
+      suite: [32m'Suite 280'[39m,
+      city: [32m'Howemouth'[39m,
+      zipcode: [32m'58804-1099'[39m,
+      geo: [36m[Object][39m
+    },
+    phone: [32m'210.067.6132'[39m,
+    website: [32m'elvis.io'[39m,
+    company: {
+      name: [32m'Johns Group'[39m,
+      catchPhrase: [32m'Configurable multimedia task-force'[39m,
+      bs: [32m'generate enterprise e-tailers'[39m
+    }
+  },
+  {
+    id: [33m8[39m,
+    name: [32m'Nicholas Runolfsdottir V'[39m,
+    username: [32m'Maxime_Nienow'[39m,
+    email: [32m'Sherwood@rosamond.me'[39m,
+    address: {
+      street: [32m'Ellsworth Summit'[39m,
+      suite: [32m'Suite 729'[39m,
+      city: [32m'Aliyaview'[39m,
+      zipcode: [32m'45169'[39m,
+      geo: [36m[Object][39m
+    },
+    phone: [32m'586.493.6943 x140'[39m,
+    website: [32m'jacynthe.com'[39m,
+    company: {
+      name: [32m'Abernathy Group'[39m,
+      catchPhrase: [32m'Implemented secondary concept'[39m,
+      bs: [32m'e-enable extensible e-tailers'[39m
+    }
+  },
+  {
+    id: [33m9[39m,
+    name: [32m'Glenna Reichert'[39m,
+    username: [32m'Delphine'[39m,
+    email: [32m'Chaim_McDermott@dana.io'[39m,
+    address: {
+      street: [32m'Dayna Park'[39m,
+      suite: [32m'Suite 449'[39m,
+      city: [32m'Bartholomebury'[39m,
+      zipcode: [32m'76495-3109'[39m,
+      geo: [36m[Object][39m
+    },
+    phone: [32m'(775)976-6794 x41206'[39m,
+    website: [32m'conrad.com'[39m,
+    company: {
+      name: [32m'Yost and Sons'[39m,
+      catchPhrase: [32m'Switchable contextually-based project'[39m,
+      bs: [32m'aggregate real-time technologies'[39m
+    }
+  },
+  {
+    id: [33m10[39m,
+    name: [32m'Clementina DuBuque'[39m,
+    username: [32m'Moriah.Stanton'[39m,
+    email: [32m'Rey.Padberg@karina.biz'[39m,
+    address: {
+      street: [32m'Kattie Turnpike'[39m,
+      suite: [32m'Suite 198'[39m,
+      city: [32m'Lebsackbury'[39m,
+      zipcode: [32m'31428-2261'[39m,
+      geo: [36m[Object][39m
+    },
+    phone: [32m'024-648-3804'[39m,
+    website: [32m'ambrose.net'[39m,
+    company: {
+      name: [32m'Hoeger LLC'[39m,
+      catchPhrase: [32m'Centralized empowering task-force'[39m,
+      bs: [32m'target end-to-end models'[39m
+    }
+  }
+]
+]]>
+</system-out>
+</testcase>
+<testcase name="Create user" classname="APITests.spec.js" time="0.332">
+<system-out>
+<![CDATA[{
+  name: [32m'Neha Yadav'[39m,
+  email: [32m'neha@test.com'[39m,
+  username: [32m'nehayadav'[39m,
+  id: [33m11[39m
+}
+]]>
+</system-out>
+</testcase>
+<testcase name="Update user" classname="APITests.spec.js" time="0.873">
+<system-out>
+<![CDATA[{}
+]]>
+</system-out>
+</testcase>
+<testcase name="Delete user" classname="APITests.spec.js" time="0.431">
+</testcase>
+</testsuite>
+</testsuites>
